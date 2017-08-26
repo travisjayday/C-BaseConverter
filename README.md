@@ -22,7 +22,7 @@ Implicitly converts from:
  ```
 <hr><br>
 Explicitly converts from: <br>
-  - any base to any other base<br><br>
+	- any given base to any other given base<br><br>
 
   <b>Example: </b>
   ```
