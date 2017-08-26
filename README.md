@@ -21,9 +21,7 @@ Implicitly converts from:
   bin: 10100
  ```
 <hr><br>
-
-<br>
-Explicitly converts from: 
+Explicitly converts from: <br>
   - any base to any other base<br><br>
 
   <b>Example: </b>
