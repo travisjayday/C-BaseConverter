@@ -6,8 +6,9 @@ Implicitly converts from:
   - decimal to hexadecimal and binary
   - hexadecimal to decimal and binary
   - binary to decimal and hexadecimal <br>
-Example: <br>
+
 ```
+  <b>Example: </b>
   root@pc:~#conv 0x14
   dec: 20<br>
   bin: 10100
@@ -23,8 +24,9 @@ Example: <br>
 <hr><br>
 Explicitly converts from: 
   - any base to any other base
-Example: 
+
   ```
+  <b>Example:</b>
   root@pc: #conv -e 16 8 14 
   Converting 14 from base 16 to base 8
   24
@@ -41,4 +43,4 @@ Usage:
 ```
 
 # Additional
-Writing this base converter in pure C without <stdio.h> has been a fun little practice. A friend of mine inspired me to write thise base converter, and I think it's just a handy tool to have around when working with other low-level programming languages (e.g. assembly). 
+Writing this base converter in pure C without <stdio.h> has been a fun little practice. A friend of mine inspired me to write this base converter, and I think it's just a handy tool to have around when working with other low-level programming languages (e.g. assembly). 
