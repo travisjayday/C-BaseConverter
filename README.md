@@ -20,7 +20,9 @@ Implicitly converts from:
   hex: 14
   bin: 10100
  ```
-<hr><br><br>
+<hr><br>
+
+<br>
 Explicitly converts from: 
   - any base to any other base<br><br>
 
