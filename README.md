@@ -5,7 +5,7 @@ Implicitly converts between Hexadecimal, Binary and Decimal numbers. Can also ex
 Implicitly converts from: 
   - decimal to hexadecimal and binary
   - hexadecimal to decimal and binary
-  - binary to decimal and hexadecimal <br>
+  - binary to decimal and hexadecimal <br><br>
   <b>Example: </b>
 ```
   root@pc:~#conv 0x14
@@ -20,9 +20,9 @@ Implicitly converts from:
   hex: 14
   bin: 10100
  ```
-<hr><br>
+<hr><br><br>
 Explicitly converts from: 
-  - any base to any other base
+  - any base to any other base<br><br>
 
   <b>Example: </b>
   ```
