@@ -6,9 +6,8 @@ Implicitly converts from:
   - decimal to hexadecimal and binary
   - hexadecimal to decimal and binary
   - binary to decimal and hexadecimal <br>
-
-```
   <b>Example: </b>
+```
   root@pc:~#conv 0x14
   dec: 20<br>
   bin: 10100
@@ -25,8 +24,8 @@ Implicitly converts from:
 Explicitly converts from: 
   - any base to any other base
 
+  <b>Example: </b>
   ```
-  <b>Example:</b>
   root@pc: #conv -e 16 8 14 
   Converting 14 from base 16 to base 8
   24
