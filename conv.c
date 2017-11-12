@@ -129,7 +129,7 @@ void implicit_conversion(char* input)
 
 
 // prints a given number to screen in a specific base format (recursively) 
-void print_base(int dec, int base, char root) 
+void print_base(unsigned int dec, int base, char root) 
 {
 	int div = dec / base;					// divide to get larger digit
 	int rem = dec % base;					// provide to get smaller
@@ -154,14 +154,20 @@ void print_base(int dec, int base, char root)
 void base2base(char* num, int inbase, int outbase)
 {
 	int len = get_strlen(num);				// get string len for looping
-	int result = 0;						// result number 
+	unsigned int result = 0;						// result number 
 	for (int i = 0; i < len; i++) 
 	{
 		char val = *(num+len-1-i);			// get temp of char value
 		if (val > '9') 					// if its and alpha char, convert it to 
-			val -= 'A' - 10;			// regular integer
+		{
+			if (val >= 'a')
+				val -= 'a' - 10; 
+			else 
+				val -= 'A' - 10;		// regular integer
+		}
 		else
 			val -= '0';				
+
 		if (val > inbase -1)				// test if input char is in base range (i.e.  
 			input_failure();			// can't have #4 in binary num. So call, in_failure();
 	
